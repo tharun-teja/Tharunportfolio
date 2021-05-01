@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylecontact.css">
+  	<title>contact us</title>
+<script type="text/javascript">
+function formReset()
+{
+document.getElementById("frm1").reset();
+}
+function formSubmit()
+{
+document.getElementById("frm1").submit();
+}
+</script>
+  </head>
+  <body>
+<h2 class="tittle1">Contact info</h2>
+    <hr>
+    <ul type="*" class="table">
+      <li>Ph no:9493782371</li>
+      <li>Email:tharunteja.atur@gmail.com</li>
+      <li>H no:#5-44,Sivalayum Street
+      <li>Nandyal, Kurnool dist, A.p, India</li>
+    </ul>
+<br>
+<br>
+<h3 class="fedbck">Write to Us</h3>
+<form id="frm1" method="post" action="#">
+<label for="name">Name </label>
+<input type="text" name="name" id="name" />
+<br><br>
+<label for="email">Email </label>
+<input type="email" name="email" id="email" />
+<br><br>
+<label for="message">Message</label>
+<textarea class="message" name="message" id="message" rows="4" columns="2"></textarea>
+<br><br>
+<input type="button" onclick="formReset()" value="Reset form" />
+<input type="button" onclick="formSubmit()" value="Submit form" />
+</form>
+
+<section class="footer">
+   <h3>Follow Us</h3>
+   <ul class="contact">
+       <li><a href="#">Linkedin.com</a></li>
+       <li><a href="#">Facebook.com</a></li>
+       <li><a href="#">Instagram.com</a></li>
+   </ul>
+       <p text-align="center">&copy;TharunTeja 2021. All rights reserved.</p>
+   </section>
+</form>
+   </body>

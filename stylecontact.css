@@ -1,0 +1,41 @@
+body
+{
+	background: url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
+    font-size:1.25em;
+    text-align: justify;
+
+}
+.tittle1
+{
+	color: #03fc77;
+}
+.table
+{
+	color: #fcba03;
+}
+.fedbck
+{
+	 color:#03fc77;
+	text-align: left;}
+#frm1
+{
+	text-align: left;
+color: #fcba03;
+}
+.message
+{
+	vertical-align: top;
+}
+.contact
+{
+	list-style: inside;
+
+}
+.footer {  
+	position: justify;  
+	bottom: 5px;  
+	width: 100%;  
+	background-color: grey;  
+	color: white;  
+	text-align: center;  
+	}  

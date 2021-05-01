@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>FeedBack</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+<script type="text/javascript">
+function formReset()
+{
+document.getElementById("frm1").reset();
+}
+function formSubmit()
+{
+document.getElementById("frm1").submit();
+}
+</script>
+</head>
+<body>
+    <h2 class="fedbck">Feedback form</h2>
+ <form id="frm1" method="post" action="#">
+<br><br>
+<label for="name">Name </label>
+<input type="text" name="name" id="name" />
+<br><br>
+<label for="email">Email </label>
+<input type="email" name="email" id="email" />
+<br><br>
+<label for="message">Comment</label>
+<textarea class="message" name="message" id="message" rows="4" columns="2"></textarea>
+<br><br>
+<input type="button" onclick="formReset()" value="Reset form" />
+<input type="button" onclick="formSubmit()" value="Submit form" />
+</form>
+
+<section class="footer">
+    <h3>Follow Us</h3>
+    <ul class="contact">
+        <li><a href="#">Linkedin.com</a></li>
+        <li><a href="#">Facebook.com</a></li>
+        <li><a href="#">Instagram.com</a></li>
+    </ul>
+        <p text-align="center">&copy;TharunTeja 2021. All rights reserved.</p>
+    </section>
+
+</body>
+</html>
